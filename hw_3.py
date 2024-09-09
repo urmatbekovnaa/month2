@@ -24,7 +24,6 @@ class Computer:
     def make_computations(self):
         print(f'Производятся арифметические действия с CPU и памятью')
 
-    # Магические методы сравнения по атрибуту memory
     def __lt__(self, other):
         return self.__memory < other.__memory
 
