@@ -122,11 +122,3 @@ delete_products(1)
 select_all_products()
 select_products_by_price(100)
 select_products_by_quantity(5)
-
-#console
-# SELECT * FROM products
-# WHERE price <= 100
-#   AND quantity >= 5;
-#
-# -- SELECT *
-# -- FROM products WHERE product_title LIKE '%juice%';
